@@ -1,0 +1,40 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "A natural language processing with slack and wit.ai",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auto-Sys/weather-bot.git"
+  },
+  "keywords": [
+    "witai",
+    "slack",
+    "bot",
+    "rowland",
+    "natural",
+    "language",
+    "processing"
+  ],
+  "author": "Rowland Ekemezie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Auto-Sys/weather-bot/issues"
+  },
+  "homepage": "https://github.com/Auto-Sys/weather-bot#readme",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "dotenv": "^2.0.0",
+    "webpack": "^1.13.1",
+    "witbot": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
