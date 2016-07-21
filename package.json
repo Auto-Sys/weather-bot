@@ -29,6 +29,7 @@
   "dependencies": {
     "botkit": "^0.2.2",
     "dotenv": "^2.0.0",
+    "node-wit": "^4.0.0",
     "webpack": "^1.13.1",
     "witbot": "^2.1.0"
   },
