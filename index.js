@@ -2,6 +2,7 @@ import witbot from 'witbot';
 import Botkit from 'botkit';
 import dotenv from 'dotenv';
 import {Wit, log} from 'node-wit';
+import apiai from 'apiai';
 dotenv.config()
 const witToken = process.env.WIT_TOKEN
 const slackToken = process.env.SLACK_TOKEN
